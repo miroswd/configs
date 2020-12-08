@@ -1,0 +1,81 @@
+{
+  // Material Icon
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.associations": {
+    "infra":"app",
+    "entities":"class",
+    "schemas":"class",
+    "typeorm":"database",
+    "repositories":"mappings",
+    "http":"container",
+    "migrations":"tools",
+    "modules":"components",
+    "implementations":"core",
+    "dtos":"typescript",
+    "fakes":"mock"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json":"database",
+    "tsconfig.json":"tune"
+  },
+  
+  // Referente à tipografia
+  "editor.tabSize":2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Distribuição de pastas 
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "breadcrumbs.enabled": true,
+
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [120,160],
+  "extensions.ignoreRecommendations": true,
+
+  // Impede a importação dos arquivos, quando o arquivo é alterado de pasta
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Removendo dicas
+  "editor.parameterHints.enabled": false,
+
+  // Auto increment
+  "emmet.includeLanguages": {
+      "njk": "html",
+      "javascript":"javascriptreact"
+
+    },
+
+  // ESlint
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint":true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Tokyo Night",
+    "window.zoomLevel": 0,
+    "todo-tree.tree.showScanModeButton": false,
+}
